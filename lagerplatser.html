@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/site.css" />
+    <link rel="stylesheet" href="/assets/css/navigation.css" />
+    <link rel="stylesheet" href="/assets/css/utilities.css" />
+    <link rel="stylesheet" href="/assets/css/lagerplatser.css" />
+    <title>Var är Hammaren? | Lagerplatser</title>
+  </head>
+  <body>
+    <header class="bg-header">
+      <nav>
+        <h1>Var är Hammaren?</h1>
+        <ul>
+          <li><a href="/index.html">Start</a></li>
+          <li><a class="active" href="#">Lagerplatser</a></li>
+          <li><a href="/verktyg.html">Verktyg</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="bg-main">
+      <article class="form-control">
+        <section>
+          <h2>Lägg till lagerplats och verktyg</h2>
+          <form action="#" method="post">
+            <div>
+              <label for="storage-location">Lagerplats</label>
+              <input
+                type="text"
+                name="storage-location"
+                id="storage-location"
+              />
+            </div>
+            <div>
+              <label for="tool">Verktyg</label>
+              <input type="text" name="tool" id="tool" />
+            </div>
+          </form>
+        </section>
+      </article>
+      <article>
+        <h2>Lista lagerplats och verktyg</h2>
+        <section id="tools-gallery"></section>
+      </article>
+    </main>
+    <footer class="bg-footer">Var är Hammaren? &copy; 2023</footer>
+    <script src="/scripts/script.js"></script>
+  </body>
+</html>

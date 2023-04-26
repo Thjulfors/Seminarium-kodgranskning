@@ -1,0 +1,14 @@
+{
+    "storage":[
+        {
+            "id": 1,
+            "storageLocation": "Gul verktygslåda",
+            "tool": "Hammare"
+        },
+        {
+            "id": 2,
+            "storageLocation": "Gul verktygslåda",
+            "tool": "Skiftnyckel"
+        }
+    ]
+}
